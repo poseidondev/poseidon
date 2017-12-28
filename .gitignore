@@ -1,0 +1,34 @@
+src/*.exe
+src/poseidon
+src/poseidond
+src/test_poseidon
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.poseidon
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+poseidon-qt
+Poseidon-Qt.app
+
+# Unit-tests
+Makefile.test
+poseidon-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

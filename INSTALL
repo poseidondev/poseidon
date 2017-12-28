@@ -1,0 +1,9 @@
+Building Poseidon
+
+See doc/readme-qt.rst for instructions on building Poseidon-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Poseidon.
+
+See doc/build-*.txt for instructions on building poseidond,
+the intended-for-services, no-graphical-interface, reference
+implementation of Poseidon.
